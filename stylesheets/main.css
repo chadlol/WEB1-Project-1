@@ -1,7 +1,66 @@
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    padding:0;
+}
+
+strong {
+    color: #000;
+}
+
 .person {
-    width:600px;;
+    background: #eee;
+    font-family: 'Open Sans', sans-serif;
+    max-width:600px;
+    margin: 2em auto;
+    padding: 2em;
 }
 
 .person__portrait {
     width: 100%;
+}
+
+.person__name {
+    font-size: 3em;
+    font-family: 'Roboto Slab', serif; 
+    margin: 0.25em 0 0;
+}
+
+.person__occupation {
+    font-size: 0.85em;
+}
+
+.person__info {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.person__info li {
+    display: inline;
+    margin: 0 1em 0 0;
+    font-size: 0.85em;
+    color: #ff5b5b;
+}
+
+.person__achievements {
+    list-style: none;
+    padding: 0;
+}
+
+.person__achievements li {
+    color: #ff5b5b;
+}
+
+.person__wiki {
+    background: #ff5b5b;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.75em;
+    display: inline-block;
+    transition: all 0.25s;
+}
+
+.person__wiki:hover {
+    color: #ff5b5b;
+    background: #fff;
 }
